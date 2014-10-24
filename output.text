@@ -1,0 +1,30 @@
+
++BRAKEMAN REPORT+
+
+Application path: /Users/Rocobb/Source/rails_apps/workspace/toy_app
+Rails version: 4.1.6
+Brakeman version: 2.6.3
+Started at 2014-10-24 08:31:21 -0400
+Duration: 0.280183 seconds
+Checks run: BasicAuth, ContentTag, CreateWith, CrossSiteScripting, DefaultRoutes, Deserialize, DetailedExceptions, DigestDoS, EscapeFunction, Evaluation, Execute, FileAccess, FilterSkipping, ForgerySetting, HeaderDoS, I18nXSS, JRubyXML, JSONParsing, LinkTo, LinkToHref, MailTo, MassAssignment, ModelAttrAccessible, ModelAttributes, ModelSerialize, NestedAttributes, NumberToCurrency, QuoteTableName, Redirect, RegexDoS, Render, RenderDoS, ResponseSplitting, SQL, SQLCVEs, SSLVerify, SafeBufferManipulation, SanitizeMethods, SelectTag, SelectVulnerability, Send, SendFile, SessionSettings, SimpleFormat, SingleQuotes, SkipBeforeFilter, StripTags, SymbolDoS, TranslateBug, UnsafeReflection, ValidationRegex, WithoutProtection, YAMLParsing
+
+
++SUMMARY+
+
++-------------------+-------+
+| Scanned/Reported  | Total |
++-------------------+-------+
+| Controllers       | 2     |
+| Models            | 1     |
+| Templates         | 6     |
+| Errors            | 1     |
+| Security Warnings | 0 (0) |
++-------------------+-------+
+
+
++Errors+
++------------------------------------------------------------------------------+------------------------------------------------------------------------------------------+
+| Error                                                                        | Location                                                                                 |
++------------------------------------------------------------------------------+------------------------------------------------------------------------------------------+
+| (string):61 :: parse error on value "$end" ($end) While processing routes.rb | /Users/Rocobb/.rbenv/versions/2.0.0-p451/lib/ruby/2.0.0/racc/parser.rb:529:in `on_error' |
++------------------------------------------------------------------------------+------------------------------------------------------------------------------------------+
